@@ -1,0 +1,20 @@
+{
+    "livres":[
+        {
+        "titre": "1984",
+        "auteurs": ["George Orwell"],
+        "isbn":"978-2-07-036822-8",
+        "image": "../imgL2/bd1.jpg",
+        "editeur": "Gallimard",
+        "date_publication": "1949",
+        "genre":"Dystopie,Science-fiction",
+        "resume": "un homme lutte contre un regime",
+        "langue": "Français",
+        "nombre_pages": "368",
+        "disponibilite": "false",
+        "etat": "Endommagé",
+        "emplacement": "Réservés"
+
+        }
+    ]
+}

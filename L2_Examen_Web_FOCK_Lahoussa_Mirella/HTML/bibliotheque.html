@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de bibliothèque</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+   
+    <nav>
+        <header>
+            <h2>GESTION DES BIBLIOTHÈQUE</h2>
+        </header>
+    </nav>
+    <section>
+       
+        <form id="form">
+            <h1>Ajouter des Nouvelles Livre</h1>
+            <label for="titre">Titre</label>
+            <input type="text" id="titre">
+            
+            <label for="auteur">Auteurs</label>
+            <input type="text" id="auteur">
+            
+            <label for="isbn">International Standard Book Number</label>
+            <input type="text" id="isbn">
+            
+            <label for="img">Image</label>
+            <input type="file" id="img">
+            <label for="img">Editeur</label>
+            <input type="text" id="edit">
+            <label for="img">Date de publication</label>
+            <input type="date" id="date">
+            <label for="img">Genre</label>
+            <input type="text" id="genre">
+            <label for="img">Resume</label>
+            <input type="text" id="resume">
+            <label for="img">Langue</label>
+            <input type="text" id="langue">
+            <label for="img">Nombre de page</label>
+            <input type="text" id="page">
+            <label for="4">Disponibilité</label>
+            <input type="text" id="dispo">
+            <label for="img">Etat</label>
+            <input type="text" id="etat">
+            <label for="img">Emplacement</label>
+            <input type="text" id="place">
+            <input type="submit"  id="submet" value="Enregistrer">
+        </form>
+    </section>
+    <section>
+       
+    </section>
+    <main id="livres-container">
+        <form id="form1">
+            <input type="text" id="search" placeholder="Search titre">
+        </form>
+        <table id="tables" cellspacing="20%">
+            
+                <tr>
+                    <th>Titre</th>
+                    <th>Auteurs</th>
+                    <th>Éditeur</th>
+                    <th>Image</th>
+                </tr>
+          
+        </table>
+        <div class="container">
+
+        </div>
+        <div id="page"></div>
+    </main>
+  
+    <script src="../Js/Script.js"></script>
+</body>
+</html>
